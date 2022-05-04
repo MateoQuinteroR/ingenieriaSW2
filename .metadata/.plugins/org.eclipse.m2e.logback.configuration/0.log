@@ -945,3 +945,199 @@ org.apache.maven.project.ProjectBuildingException: Some problems were encountere
 2022-04-26 17:03:27,304 [Worker-7: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PersistenceAcademic: academic:PersistenceAcademic:0.0.1-SNAPSHOT with classifier  to /PersistenceAcademic/target/classes
 2022-04-26 17:03:27,305 [Worker-7: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DomainAcademic: academic:DomainAcademic:0.0.1-SNAPSHOT with classifier  to /DomainAcademic/target/classes
 2022-04-26 17:03:27,305 [Worker-7: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/EntityAcademic: academic:EntityAcademic:0.0.1-SNAPSHOT with classifier  to /EntityAcademic/target/classes
+2022-04-26 17:45:13,568 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-04-26 18:15:26,233 [Worker-23: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOAcademic: academic:DTOAcademic:0.0.1-SNAPSHOT with classifier  to /DTOAcademic/target/classes
+2022-04-26 18:15:26,236 [Worker-23: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ServiceAcademic: academic:ServiceAcademic:0.0.1-SNAPSHOT with classifier  to /ServiceAcademic/target/classes
+2022-04-26 18:15:26,237 [Worker-23: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PersistenceAcademic: academic:PersistenceAcademic:0.0.1-SNAPSHOT with classifier  to /PersistenceAcademic/target/classes
+2022-04-26 18:15:26,237 [Worker-23: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DomainAcademic: academic:DomainAcademic:0.0.1-SNAPSHOT with classifier  to /DomainAcademic/target/classes
+2022-04-26 18:15:26,237 [Worker-23: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/EntityAcademic: academic:EntityAcademic:0.0.1-SNAPSHOT with classifier  to /EntityAcademic/target/classes
+2022-04-26 18:41:20,660 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: academic:APIAcademic:0.0.1-SNAPSHOT @ C:\Users\PC\eclipse-workspace\APIAcademic\pom.xml.
+2022-04-26 18:41:20,795 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOAcademic: academic:DTOAcademic:0.0.1-SNAPSHOT with classifier  to /DTOAcademic/target/classes
+2022-04-26 18:41:20,796 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ServiceAcademic: academic:ServiceAcademic:0.0.1-SNAPSHOT with classifier  to /ServiceAcademic/target/classes
+2022-04-26 18:41:20,796 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PersistenceAcademic: academic:PersistenceAcademic:0.0.1-SNAPSHOT with classifier  to /PersistenceAcademic/target/classes
+2022-04-26 18:41:20,796 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DomainAcademic: academic:DomainAcademic:0.0.1-SNAPSHOT with classifier  to /DomainAcademic/target/classes
+2022-04-26 18:41:20,796 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/EntityAcademic: academic:EntityAcademic:0.0.1-SNAPSHOT with classifier  to /EntityAcademic/target/classes
+2022-04-26 18:41:21,221 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 18:41:21,221 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 18:41:21,224 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-26 18:41:21,237 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 18:41:21,240 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 18:41:21,240 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 18:41:21,240 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\APIAcademic\src\test\resources
+2022-04-26 18:41:21,962 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 18:41:21,963 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\DTOAcademic\src\main\resources
+2022-04-26 18:41:21,965 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 18:41:21,966 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\DTOAcademic\src\test\resources
+2022-04-26 18:41:21,990 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 18:41:21,991 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\DomainAcademic\src\main\resources
+2022-04-26 18:41:21,992 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 18:41:21,993 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\DomainAcademic\src\test\resources
+2022-04-26 18:41:22,012 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 18:41:22,013 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\EntityAcademic\src\main\resources
+2022-04-26 18:41:22,014 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 18:41:22,014 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\EntityAcademic\src\test\resources
+2022-04-26 18:41:22,067 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: academic:PersistenceAcademic:0.0.1-SNAPSHOT @ C:\Users\PC\eclipse-workspace\PersistenceAcademic\pom.xml.
+2022-04-26 18:41:22,069 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/EntityAcademic: academic:EntityAcademic:0.0.1-SNAPSHOT with classifier  to /EntityAcademic/target/classes
+2022-04-26 18:41:22,138 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 18:41:22,139 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\PersistenceAcademic\src\main\resources
+2022-04-26 18:41:22,140 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 18:41:22,141 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\PersistenceAcademic\src\test\resources
+2022-04-26 18:41:22,191 [Worker-43: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: academic:ServiceAcademic:0.0.1-SNAPSHOT @ C:\Users\PC\eclipse-workspace\ServiceAcademic\pom.xml.
+2022-04-26 18:41:22,195 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PersistenceAcademic: academic:PersistenceAcademic:0.0.1-SNAPSHOT with classifier  to /PersistenceAcademic/target/classes
+2022-04-26 18:41:22,195 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DomainAcademic: academic:DomainAcademic:0.0.1-SNAPSHOT with classifier  to /DomainAcademic/target/classes
+2022-04-26 18:41:22,195 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/EntityAcademic: academic:EntityAcademic:0.0.1-SNAPSHOT with classifier  to /EntityAcademic/target/classes
+2022-04-26 18:41:22,195 [Worker-43: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOAcademic: academic:DTOAcademic:0.0.1-SNAPSHOT with classifier  to /DTOAcademic/target/classes
+2022-04-26 18:41:22,317 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 18:41:22,319 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\main\resources
+2022-04-26 18:41:22,320 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 18:41:22,320 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\test\resources
+2022-04-26 18:49:31,105 [Worker-50: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOAcademic: academic:DTOAcademic:0.0.1-SNAPSHOT with classifier  to /DTOAcademic/target/classes
+2022-04-26 18:49:31,106 [Worker-50: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ServiceAcademic: academic:ServiceAcademic:0.0.1-SNAPSHOT with classifier  to /ServiceAcademic/target/classes
+2022-04-26 18:49:31,106 [Worker-50: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PersistenceAcademic: academic:PersistenceAcademic:0.0.1-SNAPSHOT with classifier  to /PersistenceAcademic/target/classes
+2022-04-26 18:49:31,106 [Worker-50: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DomainAcademic: academic:DomainAcademic:0.0.1-SNAPSHOT with classifier  to /DomainAcademic/target/classes
+2022-04-26 18:49:31,106 [Worker-50: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/EntityAcademic: academic:EntityAcademic:0.0.1-SNAPSHOT with classifier  to /EntityAcademic/target/classes
+2022-04-26 18:49:31,111 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 18:49:31,111 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 18:49:31,112 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 18:49:31,113 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 18:49:31,114 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 18:49:31,115 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 18:49:31,115 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\APIAcademic\src\test\resources
+2022-04-26 18:50:00,817 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 18:50:00,817 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 18:50:00,818 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 18:50:00,818 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 18:50:00,820 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 18:50:00,820 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 18:50:00,820 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\APIAcademic\src\test\resources
+2022-04-26 18:50:21,389 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 18:50:21,389 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 18:50:21,390 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 18:50:21,390 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 18:50:21,391 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 18:50:21,391 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 18:50:21,391 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\APIAcademic\src\test\resources
+2022-04-26 18:50:38,679 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 18:50:38,679 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 18:50:38,679 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 18:50:38,679 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 18:50:38,680 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 18:50:38,680 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 18:50:38,680 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\APIAcademic\src\test\resources
+2022-04-26 19:09:36,627 [Worker-52: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PersistenceAcademic: academic:PersistenceAcademic:0.0.1-SNAPSHOT with classifier  to /PersistenceAcademic/target/classes
+2022-04-26 19:09:36,627 [Worker-52: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DomainAcademic: academic:DomainAcademic:0.0.1-SNAPSHOT with classifier  to /DomainAcademic/target/classes
+2022-04-26 19:09:36,627 [Worker-52: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/EntityAcademic: academic:EntityAcademic:0.0.1-SNAPSHOT with classifier  to /EntityAcademic/target/classes
+2022-04-26 19:09:36,627 [Worker-52: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOAcademic: academic:DTOAcademic:0.0.1-SNAPSHOT with classifier  to /DTOAcademic/target/classes
+2022-04-26 19:09:36,629 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:09:36,631 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\main\resources
+2022-04-26 19:09:36,632 [Worker-52: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:09:36,633 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\test\resources
+2022-04-26 19:10:56,659 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:10:56,661 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\main\resources
+2022-04-26 19:10:56,662 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:10:56,664 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\test\resources
+2022-04-26 19:17:48,393 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 19:17:48,393 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 19:17:48,394 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 19:17:48,394 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 19:17:48,395 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 19:17:48,396 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 19:17:48,396 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\APIAcademic\src\test\resources
+2022-04-26 19:17:48,400 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:17:48,401 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\DTOAcademic\src\main\resources
+2022-04-26 19:17:48,405 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:17:48,406 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\DTOAcademic\src\test\resources
+2022-04-26 19:17:48,410 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:17:48,411 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\DomainAcademic\src\main\resources
+2022-04-26 19:17:48,412 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:17:48,413 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\DomainAcademic\src\test\resources
+2022-04-26 19:17:48,419 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:17:48,422 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\EntityAcademic\src\main\resources
+2022-04-26 19:17:48,423 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:17:48,425 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\EntityAcademic\src\test\resources
+2022-04-26 19:17:48,434 [Worker-57: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/EntityAcademic: academic:EntityAcademic:0.0.1-SNAPSHOT with classifier  to /EntityAcademic/target/classes
+2022-04-26 19:17:48,440 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:17:48,441 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\PersistenceAcademic\src\main\resources
+2022-04-26 19:17:48,442 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:17:48,443 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\PersistenceAcademic\src\test\resources
+2022-04-26 19:17:48,458 [Worker-57: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PersistenceAcademic: academic:PersistenceAcademic:0.0.1-SNAPSHOT with classifier  to /PersistenceAcademic/target/classes
+2022-04-26 19:17:48,458 [Worker-57: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DomainAcademic: academic:DomainAcademic:0.0.1-SNAPSHOT with classifier  to /DomainAcademic/target/classes
+2022-04-26 19:17:48,459 [Worker-57: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/EntityAcademic: academic:EntityAcademic:0.0.1-SNAPSHOT with classifier  to /EntityAcademic/target/classes
+2022-04-26 19:17:48,459 [Worker-57: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOAcademic: academic:DTOAcademic:0.0.1-SNAPSHOT with classifier  to /DTOAcademic/target/classes
+2022-04-26 19:17:48,463 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:17:48,464 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\main\resources
+2022-04-26 19:17:48,465 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:17:48,467 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\test\resources
+2022-04-26 19:21:00,065 [Worker-57: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOAcademic: academic:DTOAcademic:0.0.1-SNAPSHOT with classifier  to /DTOAcademic/target/classes
+2022-04-26 19:21:00,065 [Worker-57: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ServiceAcademic: academic:ServiceAcademic:0.0.1-SNAPSHOT with classifier  to /ServiceAcademic/target/classes
+2022-04-26 19:21:00,065 [Worker-57: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PersistenceAcademic: academic:PersistenceAcademic:0.0.1-SNAPSHOT with classifier  to /PersistenceAcademic/target/classes
+2022-04-26 19:21:00,065 [Worker-57: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DomainAcademic: academic:DomainAcademic:0.0.1-SNAPSHOT with classifier  to /DomainAcademic/target/classes
+2022-04-26 19:21:00,066 [Worker-57: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/EntityAcademic: academic:EntityAcademic:0.0.1-SNAPSHOT with classifier  to /EntityAcademic/target/classes
+2022-04-26 19:21:00,200 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 19:21:00,200 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 19:21:00,202 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 19:21:00,203 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 19:21:00,204 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 19:21:00,204 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 19:21:00,204 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\APIAcademic\src\test\resources
+2022-04-26 19:21:25,186 [Worker-60: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: academic:APIAcademic:0.0.1-SNAPSHOT @ C:\Users\PC\eclipse-workspace\APIAcademic\pom.xml.
+2022-04-26 19:21:25,280 [Worker-60: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOAcademic: academic:DTOAcademic:0.0.1-SNAPSHOT with classifier  to /DTOAcademic/target/classes
+2022-04-26 19:21:25,281 [Worker-60: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ServiceAcademic: academic:ServiceAcademic:0.0.1-SNAPSHOT with classifier  to /ServiceAcademic/target/classes
+2022-04-26 19:21:25,281 [Worker-60: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PersistenceAcademic: academic:PersistenceAcademic:0.0.1-SNAPSHOT with classifier  to /PersistenceAcademic/target/classes
+2022-04-26 19:21:25,281 [Worker-60: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DomainAcademic: academic:DomainAcademic:0.0.1-SNAPSHOT with classifier  to /DomainAcademic/target/classes
+2022-04-26 19:21:25,281 [Worker-60: Importing Maven projects] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/EntityAcademic: academic:EntityAcademic:0.0.1-SNAPSHOT with classifier  to /EntityAcademic/target/classes
+2022-04-26 19:21:25,567 [Worker-60: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /APIAcademic/src/main/java
+2022-04-26 19:21:25,567 [Worker-60: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /APIAcademic/src/main/resources
+2022-04-26 19:21:25,572 [Worker-60: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /APIAcademic/src/main/resources
+2022-04-26 19:21:25,576 [Worker-60: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /APIAcademic/src/test/java
+2022-04-26 19:21:25,811 [Worker-60: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2022-04-26 19:21:26,585 [Worker-61: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DTOAcademic: academic:DTOAcademic:0.0.1-SNAPSHOT with classifier  to /DTOAcademic/target/classes
+2022-04-26 19:21:26,585 [Worker-61: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ServiceAcademic: academic:ServiceAcademic:0.0.1-SNAPSHOT with classifier  to /ServiceAcademic/target/classes
+2022-04-26 19:21:26,585 [Worker-61: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/PersistenceAcademic: academic:PersistenceAcademic:0.0.1-SNAPSHOT with classifier  to /PersistenceAcademic/target/classes
+2022-04-26 19:21:26,585 [Worker-61: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/DomainAcademic: academic:DomainAcademic:0.0.1-SNAPSHOT with classifier  to /DomainAcademic/target/classes
+2022-04-26 19:21:26,585 [Worker-61: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/EntityAcademic: academic:EntityAcademic:0.0.1-SNAPSHOT with classifier  to /EntityAcademic/target/classes
+2022-04-26 19:21:26,599 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 19:21:26,600 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 19:21:26,600 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-26 19:21:26,614 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 19:21:26,616 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 19:21:26,617 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 19:21:26,617 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\APIAcademic\src\test\resources
+2022-04-26 19:21:59,314 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 19:21:59,314 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 19:21:59,317 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-26 19:21:59,328 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 19:21:59,331 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 19:21:59,331 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 19:21:59,331 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\APIAcademic\src\test\resources
+2022-04-26 19:22:14,715 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 19:22:14,715 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 19:22:14,716 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-04-26 19:22:14,733 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-04-26 19:22:14,734 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-04-26 19:22:14,734 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-04-26 19:22:14,734 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\APIAcademic\src\test\resources
+2022-04-26 19:24:03,262 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:24:03,263 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\main\resources
+2022-04-26 19:24:03,264 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:24:03,266 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\test\resources
+2022-04-26 19:25:04,353 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:25:04,356 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\main\resources
+2022-04-26 19:25:04,357 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:25:04,359 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\test\resources
+2022-04-26 19:25:34,482 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:25:34,483 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\main\resources
+2022-04-26 19:25:34,484 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:25:34,485 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\test\resources
+2022-04-26 19:25:50,556 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:25:50,557 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\main\resources
+2022-04-26 19:25:50,559 [Worker-59: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:25:50,561 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\test\resources
+2022-04-26 19:26:11,926 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:26:11,928 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\main\resources
+2022-04-26 19:26:11,929 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:26:11,931 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\test\resources
+2022-04-26 19:26:21,289 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:26:21,292 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\main\resources
+2022-04-26 19:26:21,292 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-26 19:26:21,294 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\PC\eclipse-workspace\ServiceAcademic\src\test\resources

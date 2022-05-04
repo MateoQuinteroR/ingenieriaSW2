@@ -1,4 +1,4 @@
-package academic.config;
+package academic.api.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
