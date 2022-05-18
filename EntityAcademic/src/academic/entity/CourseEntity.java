@@ -1,10 +1,14 @@
 package academic.entity;
 
+import java.util.Date;
+
 public class CourseEntity {
 	
 	private int id;
 	private SubjectEntity subject;
 	private ProfessorEntity professor;
+	private Date initialDate;
+	private Date finalDate;
 	
 	public CourseEntity() {
 		setId(0);
@@ -38,6 +42,22 @@ public class CourseEntity {
 	public CourseEntity setProfessor(ProfessorEntity professor) {
 		this.professor = professor;
 		return this;
+	}
+
+	public Date getInitialDate() {
+		return initialDate;
+	}
+
+	public void setInitialDate(Date initialDate) {
+		this.initialDate = initialDate;
+	}
+
+	public Date getFinalDate() {
+		return finalDate;
+	}
+
+	public void setFinalDate(Date finalDate) {
+		this.finalDate = finalDate;
 	}
 	
 	

@@ -16,6 +16,7 @@ public class RegisterAttendanceController {
 	private RegisterAttendanceFacade registerAttendanceFacade;
 	
 	public void register(@RequestBody AttendanceDTO attendanceDTO) {
+		registerAttendanceFacade.execute(attendanceDTO);
 		
 	}
 		

@@ -7,6 +7,7 @@ public class SessionDomain {
 	private int id;
 	private CourseDomain course;
 	private Date date;
+	
 	public SessionDomain(int id, CourseDomain course, Date date) {
 		super();
 		setId(id);

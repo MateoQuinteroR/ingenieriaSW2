@@ -4,10 +4,16 @@ public class SubjectDomain {
 	
 	private int id;
 	private String name;
-	public SubjectDomain(int id, String name) {
+	
+	
+	private SubjectDomain(int id, String name) {
 		super();
 		setId(id);
 		setName(name);
+	}
+	
+	public static SubjectDomain create(int id,String name) {
+		return new SubjectDomain(id, name);	
 	}
 	public int getId() {
 		return id;
@@ -22,5 +28,4 @@ public class SubjectDomain {
 		this.name = (name == null) ? "" : name.trim();
 	}
 
-	
 }

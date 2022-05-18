@@ -5,6 +5,7 @@ public class StudentCourseEntity {
 	private int id;
 	private StudentEntity student;
 	private CourseEntity course;
+	private int state;
 	
 	public StudentCourseEntity() {
 		setId(0);
@@ -37,6 +38,14 @@ public class StudentCourseEntity {
 	public StudentCourseEntity setCourse(CourseEntity course) {
 		this.course = course;
 		return this;
+	}
+
+	public int getState() {
+		return state;
+	}
+
+	public void setState(int state) {
+		this.state = state;
 	}
 	
 	

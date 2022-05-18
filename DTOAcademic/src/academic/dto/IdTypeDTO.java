@@ -5,16 +5,24 @@ public class IdTypeDTO {
 	private int id;
 	private String name;
 	
+	public IdTypeDTO(int id, String name) {
+		super();
+		setId(id);
+		setName(name);
+	}
+
 	public IdTypeDTO() {
-		setId(0);
 		setName("");
-		
 	}
 	
 	public static IdTypeDTO create() {
 		return new IdTypeDTO();
 	}
-
+	
+	public static IdTypeDTO create(int id,String name) {
+		return new IdTypeDTO(id, name);	
+	}
+	
 	public int getId() {
 		return id;
 	}

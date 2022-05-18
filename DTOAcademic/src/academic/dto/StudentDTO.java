@@ -1,10 +1,13 @@
 package academic.dto;
 
+
 public class StudentDTO {
 	
 	private int id;
+	private String idNumber;
 	private IdTypeDTO idType;
 	private String name;
+	private String email;
 	
 	public StudentDTO() {
 		setId(0);
@@ -37,6 +40,22 @@ public class StudentDTO {
 	public StudentDTO setName(String name) {
 		this.name = (name == null) ? "" : name.trim();
 		return this;
+	}
+
+	public String getIdNumber() {
+		return idNumber;
+	}
+
+	public void setIdNumber(String idNumber) {
+		this.idNumber = idNumber;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 	
 	

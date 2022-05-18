@@ -3,8 +3,11 @@ package academic.domain;
 public class StudentDomain {
 	
 	private int id;
+	private String idNumber;
 	private IdTypeDomain idType;
 	private String name;
+	private String email;
+	
 	public StudentDomain(int id, IdTypeDomain idType, String name) {
 		super();
 		setId(id);
@@ -29,6 +32,20 @@ public class StudentDomain {
 	public void setName(String name) {
 		this.name = (name == null) ? "" : name.trim();
 	}
+	public String getIdNumber() {
+		return idNumber;
+	}
+	public void setIdNumber(String idNumber) {
+		this.idNumber = idNumber;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	
 
 	
 }

@@ -12,6 +12,18 @@ public class IdTypeDomain {
 		setName(name);
 	}
 
+	public IdTypeDomain() {
+		setName("");
+	}
+	
+	public static IdTypeDomain create() {
+		return new IdTypeDomain();
+	}
+	
+	public static IdTypeDomain create(int id,String name) {
+		return new IdTypeDomain(id, name);	
+	}
+
 
 	public int getId() {
 		return id;

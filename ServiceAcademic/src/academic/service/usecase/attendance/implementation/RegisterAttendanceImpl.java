@@ -7,6 +7,7 @@ import academic.domain.AttendanceDomain;
 import academic.entity.AttendanceEntity;
 import academic.persistence.dao.attendance.AttendanceRepository;
 import academic.service.usecase.attendance.RegisterAttendance;
+import academic.service.usecase.validator.attendance.RegisterAttendanceValidator;
 
 @Service
 public class RegisterAttendanceImpl implements RegisterAttendance{
@@ -14,11 +15,16 @@ public class RegisterAttendanceImpl implements RegisterAttendance{
 	@Autowired
 	private AttendanceRepository attendanceRepository;
 
+	@Autowired
+	private RegisterAttendanceValidator registerAttendanceValidator;
+	
 	@Override
 	public void execute(AttendanceDomain domain) {
+		
+		RegisterAttendanceValidator.getRegisterAttendanceValidator().validate(domain);
 		//Business Logic
 		//1. Diagrama de actividades
-		AttendanceEntity attendanceEntity = null;
+		AttendanceEntity attendanceEntity = AttendanceAssambler.getAttendanceAssambler().convertDomainToEntity(domain);
 		attendanceRepository.save(attendanceEntity);
 		
 	}
