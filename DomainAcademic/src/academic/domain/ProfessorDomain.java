@@ -1,74 +1,76 @@
 package academic.domain;
 
 public class ProfessorDomain {
-	
+
 	private int id;
 	private String idNumber;
 	private IdTypeDomain idType;
 	private String name;
 	private String email;
-	
-	
+
 	public ProfessorDomain() {
-		setId(0);
-		setIdNumber("");
-		setIdType(IdTypeDomain.create());
-		setName("");
-		setEmail("");
-		
-	}
-	
-	public ProfessorDomain(int id, String name) {
 		super();
 		setId(id);
+		setIdType(idType);
 		setName(name);
+		setIdNumber(idNumber);
+		setEmail(email);
 	}
-	
-	public static ProfessorDomain create(int id,String name) {
-		return new ProfessorDomain(id, name);	
+
+	public ProfessorDomain(int id, IdTypeDomain idType, String name, String idNumber, String email) {
+		super();
+		setId(id);
+		setIdType(idType);
+		setName(name);
+		setIdNumber(idNumber);
+		setEmail(email);
 	}
-	
+
 	public static ProfessorDomain create() {
 		return new ProfessorDomain();
 	}
-	
+
+	public static ProfessorDomain create(int id, IdTypeDomain idType, String name, String idNumber, String email) {
+		return new ProfessorDomain(id, idType, name, idNumber, email);
+	}
+
 	public int getId() {
 		return id;
 	}
-	public ProfessorDomain setId(int id) {
+
+	private void setId(int id) {
 		this.id = (id < 0) ? 0 : id;
-		return this;
 	}
+
 	public IdTypeDomain getIdType() {
 		return idType;
 	}
-	public ProfessorDomain setIdType(IdTypeDomain idType) {
-		this.idType = idType;
-		return this;
+
+	private void setIdType(IdTypeDomain idType) {
+		this.idType = (idType == null) ? new IdTypeDomain() : idType;
 	}
+
 	public String getName() {
 		return name;
 	}
-	public ProfessorDomain setName(String name) {
+
+	private void setName(String name) {
 		this.name = (name == null) ? "" : name.trim();
-		return this;
 	}
 
 	public String getIdNumber() {
 		return idNumber;
 	}
 
-	public ProfessorDomain setIdNumber(String idNumber) {
-		this.name = (name == null) ? "" : name.trim();
-		return this;
+	private void setIdNumber(String idNumber) {
+		this.idNumber = (idNumber == null) ? "" : idNumber.trim();
 	}
 
 	public String getEmail() {
 		return email;
 	}
 
-	public ProfessorDomain setEmail(String email) {
-		this.name = (name == null) ? "" : name.trim();
-		return this;
+	private void setEmail(String email) {
+		this.email = (email == null) ? "" : email.trim();
 	}
 }
