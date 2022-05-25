@@ -5,6 +5,4 @@ import academic.service.usecase.UseCaseFind;
 public interface FindAllAttendance extends UseCaseFind<AttendanceDomain>{
 
 	
-
-	
 }

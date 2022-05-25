@@ -5,5 +5,5 @@ import academic.service.facade.UseCaseFacade;
 
 public interface RegisterAttendanceFacade extends UseCaseFacade<AttendanceDTO>{
 
-	
+	void execute(AttendanceDTO attendanceDTO);
 }
