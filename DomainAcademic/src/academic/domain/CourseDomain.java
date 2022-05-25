@@ -10,7 +10,6 @@ public class CourseDomain {
 	private ProfessorDomain professor;
 	private Date initialDate;
 	private Date finalDate;
-	private boolean isOpen;
 
 	public static CourseDomain create() {
 		return new CourseDomain();
@@ -28,7 +27,6 @@ public class CourseDomain {
 		setProfessor(professor);
 		setInitialDate(initialDate);
 		setFinalDate(finalDate);
-		setOpen(isOpen);
 	}
 
 	public CourseDomain() {
@@ -38,7 +36,6 @@ public class CourseDomain {
 		setProfessor(professor);
 		setInitialDate(initialDate);
 		setFinalDate(finalDate);
-		setOpen(isOpen);
 	}
 
 	public int getId() {
@@ -82,11 +79,7 @@ public class CourseDomain {
 	}
 
 	public boolean isOpen() {
-		return isOpen;
-	}
-
-	private void setOpen(boolean isOpen) {
-		this.isOpen = (Calendar.getInstance().getTime().getTime() >= getInitialDate().getTime()
+		return (Calendar.getInstance().getTime().getTime() >= getInitialDate().getTime()
 				&& Calendar.getInstance().getTime().getTime() <= getFinalDate().getTime());
 	}
 }
