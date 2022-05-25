@@ -18,7 +18,7 @@ public class StudentExistsRule implements Rule<StudentDomain>{
 	public void execute(StudentDomain domain) {
 		
 		if (!studentRepository.findById(domain.getId()).isPresent()){
-			var message = "El estudiante para el cual se llevará a a cabo no existe.";
+			var message = "El estudiante para el cual se llevará a cabo no existe.";
 			throw AcademicException.buildBusinessServiceException(message);
 		}
 		
