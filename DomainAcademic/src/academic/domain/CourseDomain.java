@@ -19,6 +19,18 @@ public class CourseDomain {
 		setSubject(subject);
 		setProfessor(professor);
 	}
+	
+	public CourseDomain() {
+		setId(0);
+	}
+	
+	public static CourseDomain create() {
+		return new CourseDomain();
+	}
+	
+	public static CourseDomain create(int id, Subject subject, ProfessorDomain professor) {
+		return new CourseDomain(id, subject, professor);
+	}
 
 	public int getId() {
 		return id;

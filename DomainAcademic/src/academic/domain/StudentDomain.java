@@ -8,11 +8,15 @@ public class StudentDomain {
 	private String name;
 	private String email;
 	
-	public StudentDomain(int id, IdTypeDomain idType, String name) {
+	public StudentDomain() {
 		super();
 		setId(id);
 		setIdType(idType);
 		setName(name);
+	}
+	
+	public static StudentDomain create() {
+		return new StudentDomain();
 	}
 	public int getId() {
 		return id;

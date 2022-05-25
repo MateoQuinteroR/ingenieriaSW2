@@ -2,12 +2,31 @@ package academic.entity;
 
 import java.util.Date;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Course")
 public class CourseEntity {
-	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
 	private int id;
+	@ManyToOne
+	@JoinColumn(name = "subject")
 	private SubjectEntity subject;
+	@ManyToOne
+	@JoinColumn(name = "professor")
 	private ProfessorEntity professor;
+	@Column(name = "initialDate")
 	private Date initialDate;
+	@Column(name = "finalDate")
 	private Date finalDate;
 	
 	public CourseEntity() {

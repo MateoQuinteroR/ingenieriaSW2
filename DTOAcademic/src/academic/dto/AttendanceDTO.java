@@ -6,6 +6,17 @@ public class AttendanceDTO {
 	private StudentCourseDTO studentCourse;
 	private SessionDTO session;
 	private boolean attended;
+	
+	
+	public AttendanceDTO() {
+		setId(0);
+		setStudentCourse(StudentCourseDTO.create());
+		setSession(SessionDTO.create());
+	}
+	
+	public static AttendanceDTO create() {
+		return new AttendanceDTO();
+	}
 	public int getId() {
 		return id;
 	}

@@ -6,6 +6,27 @@ public class AttendanceDomain {
 	private StudentCourseDomain studentCourse;
 	private SessionDomain session;
 	private boolean attended;
+	
+	public AttendanceDomain(int id) {
+		super();
+		setId(id);
+		setStudentCourse(studentCourse);
+		setSession(session);
+		setAttended(attended);
+	}
+
+	public AttendanceDomain() {
+		setId(0);
+	}
+	
+	public static AttendanceDomain create() {
+		return new AttendanceDomain();
+	}
+	
+	public static AttendanceDomain create(int id) {
+		return new AttendanceDomain(id);
+	}
+	
 	public int getId() {
 		return id;
 	}

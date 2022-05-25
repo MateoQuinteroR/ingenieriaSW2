@@ -1,5 +1,8 @@
 package academic.service.assembler.implementation;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import academic.crosscutting.exception.AcademicException;
 import academic.domain.IdTypeDomain;
 import academic.dto.IdTypeDTO;
@@ -55,6 +58,24 @@ public class IdTypeAssembler implements Assembler <IdTypeDomain, IdTypeDTO, IdTy
 			throw AcademicException.buildTechnicalServiceException(message);
 		}
 		return IdTypeDomain.create(entity.getId(), entity.getName());
+	}
+
+	@Override
+	public List<IdTypeDomain> convertListEntityToListDomain(List<IdTypeEntity> entities) {
+		List<IdTypeDomain> domains = new ArrayList<>();
+		for (IdTypeEntity entity : entities) {
+			domains.add(convertEntityToDomain(entity));
+		}
+		return domains;
+	}
+
+	@Override
+	public List<IdTypeDTO> convertListDomainToListDTO(List<IdTypeDomain> domains) {
+		List<IdTypeDTO> dtos = new ArrayList<>();
+		for (IdTypeDomain domain : domains) {
+			dtos.add(convertDomainToDTO(domain));
+		}
+		return dtos;
 	}
 	
 	

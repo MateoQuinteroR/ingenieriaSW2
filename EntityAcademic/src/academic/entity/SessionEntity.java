@@ -3,10 +3,27 @@ package academic.entity;
 import java.util.Calendar;
 import java.util.Date;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Session")
 public class SessionEntity {
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
 	private int id;
+	@ManyToOne
+	@JoinColumn(name = "course")
 	private CourseEntity course;
+	@Column(name = "date")
 	private Date date;
 	
 	public SessionEntity() {

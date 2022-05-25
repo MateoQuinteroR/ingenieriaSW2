@@ -1,5 +1,6 @@
 package academic.domain;
 
+
 public class StudentCourseDomain {
 	
 	private int id;
@@ -7,12 +8,16 @@ public class StudentCourseDomain {
 	private CourseDomain course;
 	private int state;
 	
-	public StudentCourseDomain(int id, StudentDomain student, CourseDomain course) {
+	public StudentCourseDomain() {
 		super();
 		setId(id);
 		setStudent(student);
 		setCourse(course);
-		
+	}
+
+	
+	public static StudentCourseDomain create() {
+		return new StudentCourseDomain();
 	}
 	public int getId() {
 		return id;

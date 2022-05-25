@@ -2,17 +2,22 @@ package academic.domain;
 
 import java.util.Date;
 
+
 public class SessionDomain {
 	
 	private int id;
 	private CourseDomain course;
 	private Date date;
 	
-	public SessionDomain(int id, CourseDomain course, Date date) {
+	public SessionDomain() {
 		super();
 		setId(id);
 		setCourse(course);
 		setDate(date);
+	}
+	
+	public static SessionDomain create() {
+		return new SessionDomain();
 	}
 	public int getId() {
 		return id;

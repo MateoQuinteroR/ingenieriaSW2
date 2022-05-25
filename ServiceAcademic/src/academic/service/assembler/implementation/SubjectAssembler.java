@@ -1,5 +1,8 @@
 package academic.service.assembler.implementation;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import academic.crosscutting.exception.AcademicException;
 import academic.domain.SubjectDomain;
 import academic.dto.SubjectDTO;
@@ -55,5 +58,23 @@ public class SubjectAssembler implements Assembler <SubjectDomain, SubjectDTO, S
 			throw AcademicException.buildTechnicalServiceException(message);
 		}
 		return SubjectDomain.create(entity.getId(), entity.getName());
+	}
+
+	@Override
+	public List<SubjectDomain> convertListEntityToListDomain(List<SubjectEntity> entities) {
+		List<SubjectDomain> domains = new ArrayList<>();
+		for (SubjectEntity entity : entities) {
+			domains.add(convertEntityToDomain(entity));
+		}
+		return domains;
+	}
+
+	@Override
+	public List<SubjectDTO> convertListDomainToListDTO(List<SubjectDomain> domains) {
+		List<SubjectDTO> dtos = new ArrayList<>();
+		for (SubjectDomain domain : domains) {
+			dtos.add(convertDomainToDTO(domain));
+		}
+		return dtos;
 	}
 }

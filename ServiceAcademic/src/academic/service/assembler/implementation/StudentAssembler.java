@@ -1,47 +1,81 @@
 package academic.service.assembler.implementation;
 
-import academic.domain.SubjectDomain;
-import academic.dto.SubjectDTO;
-import academic.entity.SubjectEntity;
+import java.util.ArrayList;
+import java.util.List;
+
+import academic.crosscutting.exception.AcademicException;
+import academic.domain.StudentDomain;
+import academic.dto.StudentDTO;
+import academic.entity.StudentEntity;
 import academic.service.assembler.Assembler;
 
-public class StudentAssembler implements Assembler <SubjectDomain, SubjectDTO, SubjectEntity>{
+public class StudentAssembler implements Assembler <StudentDomain, StudentDTO, StudentEntity>{
 
 	
-	private static final Assembler <SubjectDomain, SubjectDTO, SubjectEntity>
+	private static final Assembler <StudentDomain, StudentDTO, StudentEntity>
 	INSTANCE =new StudentAssembler();
 	
 	private StudentAssembler() {
 		super();
 	}
 	
-	public static Assembler <SubjectDomain, SubjectDTO, SubjectEntity>
+	public static Assembler <StudentDomain, StudentDTO, StudentEntity>
 	getStudentAssembler(){
 		return INSTANCE;
 	}
 	
 	@Override
-	public SubjectDTO convertDomainToDTO(SubjectDomain domain) {
-		// TODO Auto-generated method stub
-		return null;
+	public StudentDTO convertDomainToDTO(StudentDomain domain) {
+		if (domain == null) {
+			var message = "No es posible convertir un dominio SubjectDomain a un SubjectDTO cuando el dominio esta nulo";
+			throw AcademicException.buildTechnicalServiceException(message);
+		}
+		return StudentDTO.create();
 	}
 
 	@Override
-	public SubjectEntity convertDomainToEntity(SubjectDomain domain) {
-		// TODO Auto-generated method stub
-		return null;
+	public StudentEntity convertDomainToEntity(StudentDomain domain) {
+		if (domain == null) {
+			var message = "No es posible convertir un dominio SubjectDomain a un SubjectEntity cuando el dominio esta nulo";
+			throw AcademicException.buildTechnicalServiceException(message);
+		}
+		return StudentEntity.create();
 	}
 
 	@Override
-	public SubjectDomain convertDTOToDomain(SubjectDTO dto) {
-		// TODO Auto-generated method stub
-		return null;
+	public StudentDomain convertDTOToDomain(StudentDTO dto) {
+		if (dto == null) {
+			var message = "No es posible convertir un dominio SubjectDTO a un SubjectDomain cuando el dominio esta nulo";
+			throw AcademicException.buildTechnicalServiceException(message);
+		}
+		return StudentDomain.create();
 	}
 
 	@Override
-	public SubjectDomain convertEntityToDomain(SubjectEntity entity) {
-		// TODO Auto-generated method stub
-		return null;
+	public StudentDomain convertEntityToDomain(StudentEntity entity) {
+		if (entity == null) {
+			var message = "No es posible convertir un dominio SubjectEntity a un SubjectDomain cuando el dominio esta nulo";
+			throw AcademicException.buildTechnicalServiceException(message);
+		}
+		return StudentDomain.create();
+	}
+
+	@Override
+	public List<StudentDomain> convertListEntityToListDomain(List<StudentEntity> entities) {
+		List<StudentDomain> domains = new ArrayList<>();
+		for (StudentEntity entity : entities) {
+			domains.add(convertEntityToDomain(entity));
+		}
+		return domains;
+	}
+
+	@Override
+	public List<StudentDTO> convertListDomainToListDTO(List<StudentDomain> domains) {
+		List<StudentDTO> dtos = new ArrayList<>();
+		for (StudentDomain domain : domains) {
+			dtos.add(convertDomainToDTO(domain));
+		}
+		return dtos;
 	}
 	
 
